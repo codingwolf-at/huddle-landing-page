@@ -52,10 +52,18 @@ body {
     border: none;
 }
 
+.button:active {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.button:focus {
+    outline: none;
+}
+
 .footer {
     display: flex;
     flex-direction: row-reverse;
-    padding: 1rem;
+    padding: 0rem 2rem;
 }
 
 .footer .icon {
