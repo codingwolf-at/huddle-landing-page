@@ -72,7 +72,7 @@ body {
 }
 
 /* media query */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
 
     body {
         background-image: url(images/bg-mobile.svg);
