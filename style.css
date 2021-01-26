@@ -71,11 +71,46 @@ body {
     margin: 0rem 1rem;
 }
 
-.attribution {
-    font-size: 11px; text-align: center; 
-}
+/* media query */
+@media screen and (max-width: 376px) {
 
-.attribution a { 
-    color: black; 
-    text-decoration: none;
+    body {
+        background-image: url(images/bg-mobile.svg);
+        background-size: auto;
+    }
+
+    .header img {
+        width: 55%;
+        height: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .illustration-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-text {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    
 }
